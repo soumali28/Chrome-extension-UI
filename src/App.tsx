@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      Hello World
+    <div className="fixed top-0 right-0 h-full bg-white shadow-lg rounded-lg w-96">
+      <Home />
     </div>
   );
 }
